@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 175, 105);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+h1{
+    text-align: center;
+    
+    
+}
+
+label{
+    font-size:25px;
+    font-weight: 600;
+}
+
+input{
+    height: 30px;
+    width: 215px;
+    padding: 10px;
+    font-size: large;
+
+}
+
+button{
+    background-color:hotpink;
+    width: 100%;
+    padding: 5px;
+    font-size: larger;
+    cursor: pointer;
+}
+
